@@ -210,11 +210,6 @@ ul {
   margin-bottom: 30px;
 }
 
-.item-icon {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
 .paramt-section {
   padding-bottom: 0;
 }
@@ -322,7 +317,9 @@ ul {
   display: flex;
   justify-content: center;
   padding: 0;
-  margin-bottom: 94px;
+}
+.compani-icon {
+  fill: #afb1b8;
 }
 
 .compani-link {
@@ -334,12 +331,7 @@ ul {
   width: 170px;
   height: 92px;
 }
-.compani-icon {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  fill: #afb1b8;
-}
+
 .compani .compani-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -485,10 +477,8 @@ ul {
 .adr-foot:focus {
   color: var(--button-wordfirst-color);
 }
-.foot-icon {
-  display: block;
-  width: 206px;
-  margin-top: 70px;
+.social-item:not(:last-child) {
+  margin-right: 10px;
 }
 .foot-articl {
   font-family: "Roboto";
@@ -508,9 +498,7 @@ ul {
 .foot-social {
   fill: var(--color-white-fontbgr);
 }
-.foot-link:not(:last-child) {
-  margin-right: 10px;
-}
+
 .foot-conter {
   display: flex;
   align-items: baseline;
@@ -518,5 +506,4 @@ ul {
 .foot-adrt {
   display: block;
   margin-right: 70px;
-  align-items: baseline;
 }
